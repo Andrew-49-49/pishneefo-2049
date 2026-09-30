@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "name": "pishneefo-2049-backend",
+  "scripts": {
+    "dev": "node --watch server/index.js",
+    "start": "node server/start-production.js",
+    "test": "node tests/run-api.mjs",
+    "test:api": "node tests/run-api.mjs"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1"
+  }
+}
